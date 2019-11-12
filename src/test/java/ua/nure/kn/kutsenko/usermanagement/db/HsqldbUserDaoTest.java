@@ -15,11 +15,12 @@ class HsqldbUserDaoTest extends DatabaseTestCase {
 	private static final String lastName = "Doe";
 	private static final String firstName = "John";
 	private HsqldbUserDao dao;
+	private ConnectionFactory connectionFactory;
 	
 	@BeforeEach
 	protected void setUp() throws Exception {
 		super.setUp();
-		dao = new HsqldbUserDao();
+		dao = new HsqldbUserDao(connectionFactory);
 	}
 
 	@Test
