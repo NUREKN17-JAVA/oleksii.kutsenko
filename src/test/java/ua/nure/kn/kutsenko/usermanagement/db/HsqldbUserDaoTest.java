@@ -32,13 +32,16 @@ class HsqldbUserDaoTest extends DatabaseTestCase {
 		user.setDateOfBirth(new Date());
 		
 		assertNull(user.getId());
-		
-		User userToCheck = dao.create(user);
-		assertNotNull(userToCheck);
-		assertNotNull(userToCheck.getId());
-		assertEquals(user.getFirstName(), userToCheck.getFirstName());
-		assertEquals(user.getLastName(), userToCheck.getLastName());
-		assertEquals(user.getDateOfBirth(), userToCheck.getDateOfBirth());
+		try {
+			User userToCheck = dao.create(user);
+			assertNotNull(userToCheck);
+			assertNotNull(userToCheck.getId());
+			assertEquals(user.getFirstName(), userToCheck.getFirstName());
+			assertEquals(user.getLastName(), userToCheck.getLastName());
+			assertEquals(user.getDateOfBirth(), userToCheck.getDateOfBirth());
+		} catch (DatabaseException e) {
+			fail(e.toString());
+		}
 	}
 	
 	protected void tearDown()  throws Exception {
