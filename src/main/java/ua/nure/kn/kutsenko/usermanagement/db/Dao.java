@@ -2,8 +2,6 @@ package ua.nure.kn.kutsenko.usermanagement.db;
 
 import java.util.Collection;
 
-import ua.nure.kn.kutsenko.usermanagement.User;
-
 public interface Dao<T> {
 	T create(T entity) throws DatabaseException;
 	

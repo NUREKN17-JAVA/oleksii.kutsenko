@@ -1,7 +1,5 @@
 package ua.nure.kn.kutsenko.usermanagement.db;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.Date;
 
 import org.dbunit.DatabaseTestCase;

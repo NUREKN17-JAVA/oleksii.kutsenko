@@ -1,5 +1,15 @@
 package ua.nure.kn.kutsenko.usermanagement.db;
 
-public class DatabaseException extends Exception {
+import java.sql.SQLException;
 
+public class DatabaseException extends Exception {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public DatabaseException(SQLException e) {
+		super(e);
+	}
 }
