@@ -1,4 +1,4 @@
-package ua.nure.kn.kutsenko.usermanagement.db;
+package ua.nure.kn.kutsenko.usermanagement.domain.db;
 
 import java.sql.Connection;
 

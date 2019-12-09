@@ -1,5 +1,5 @@
-*.txt
 .classpath
+.idea
 .project
 .settings
 bin
