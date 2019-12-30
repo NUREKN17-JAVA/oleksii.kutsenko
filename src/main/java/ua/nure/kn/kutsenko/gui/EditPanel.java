@@ -15,9 +15,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import ua.nure.kn.kutsenko.usermanagment.domain.User;
 import ua.nure.kn.kutsenko.db.DaoFactory;
-import ua.nure.kn.susidskyi.db.DataBaseException;
+import ua.nure.kn.kutsenko.db.DataBaseException;
+import ua.nure.kn.kutsenko.usermanagment.domain.User;
 import ua.nure.kn.kutsenko.db.Dao;
 
 public class EditPanel extends JPanel implements ActionListener {

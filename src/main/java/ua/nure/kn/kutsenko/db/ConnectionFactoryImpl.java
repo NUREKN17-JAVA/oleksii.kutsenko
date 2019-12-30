@@ -5,8 +5,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-import javax.management.RuntimeErrorException;
-
 public class ConnectionFactoryImpl implements ConnectionFactory {
 	private static final String CONNECTION_DRIVER = "connection.driver";
 	private static final String CONNECTION_URL = "connection.url";

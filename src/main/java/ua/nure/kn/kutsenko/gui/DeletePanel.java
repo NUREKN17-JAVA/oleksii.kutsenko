@@ -10,8 +10,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 
+import ua.nure.kn.kutsenko.db.DataBaseException;
 import ua.nure.kn.kutsenko.usermanagment.domain.User;
-import ua.nure.kn.susidskyi.db.DataBaseException;
 import ua.nure.kn.kutsenko.db.Dao;
 import ua.nure.kn.kutsenko.db.DaoFactory;
 

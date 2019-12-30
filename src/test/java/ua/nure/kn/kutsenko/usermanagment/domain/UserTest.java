@@ -1,4 +1,4 @@
-package ua.nure.kn.susidskyi.usermanagment.domain;
+package ua.nure.kn.kutsenko.usermanagment.domain;
 import java.util.Calendar;
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package ua.nure.kn.susidskyi.gui;
+package ua.nure.kn.kutsenko.gui;
 
 import java.awt.Component;
 import java.text.DateFormat;
@@ -24,7 +24,7 @@ import junit.extensions.jfcunit.eventdata.MouseEventData;
 import junit.extensions.jfcunit.eventdata.StringEventData;
 import junit.extensions.jfcunit.finder.NamedComponentFinder;
 import ua.nure.kn.kutsenko.db.DaoFactory;
-import ua.nure.kn.susidskyi.db.MockDaoFactory;
+import ua.nure.kn.kutsenko.db.MockDaoFactory;
 import ua.nure.kn.kutsenko.usermanagment.domain.User;
 public class MainFrameTest extends JFCTestCase {
 

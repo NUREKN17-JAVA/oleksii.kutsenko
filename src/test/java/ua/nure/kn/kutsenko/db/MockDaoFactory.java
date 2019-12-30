@@ -1,4 +1,4 @@
-package ua.nure.kn.susidskyi.db;
+package ua.nure.kn.kutsenko.db;
 import com.mockobjects.dynamic.Mock;
 
 public class MockDaoFactory extends DaoFactory {

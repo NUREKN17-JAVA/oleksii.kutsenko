@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public abstract class DaoFactory {
-	protected static final String USER_DAO = "dao.ua.nure.kn.susidskyi.usermanagement.domain.db.UserDao";
+	protected static final String USER_DAO = "dao.ua.nure.kn.kutsenko.usermanagement.domain.db.UserDao";
 	private static final String DAO_FACTORY = "dao.factory";
 	protected static Properties properties;
 	

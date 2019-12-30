@@ -5,9 +5,9 @@ import java.awt.BorderLayout;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import ua.nure.kn.kutsenko.usermanagment.domain.User;
 import ua.nure.kn.kutsenko.db.Dao;
 import ua.nure.kn.kutsenko.db.DaoFactory;
+import ua.nure.kn.kutsenko.usermanagment.domain.User;
 
 public class MainFrame extends JFrame {
 
